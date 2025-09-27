@@ -36,3 +36,7 @@ A Cow 3D model without texture.
 -**.obj file:** It is a geometric definition file format and belongs to 3D model files. It mainly stores the geometric information of 3D models, such as vertex coordinates, texture coordinates, normal vectors, and the connection relationship of polygonal faces.  
 -**.mtl file:** It is a material library file matched with the .obj file. It stores the material information  of 3D models, such as the name, color, reflectivity, transparency, texture mapping and other parameters of the material.  
 -**.jpg file (such as Meerkat_COLOR.jpg, Oryx_COLOR.jpg):** It is an image file format. In the scenario related to 3D models, this type of file is usually used as a texture map, mapping the image to the surface of the 3D model, adding details such as colors and patterns to the model, making the 3D model look more realistic and vivid.  
+
+## Recommended testing and application environment
+The proposed algorithm was implemented in C++ and visualized using OpenSceneGraph (OSG), an open-source 3D graphics toolkit. It can be integrated as a functional module for model simplification into any 3D visualization system within a similar development environment. 
+
