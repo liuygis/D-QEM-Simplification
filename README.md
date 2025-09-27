@@ -13,17 +13,6 @@ This repository contains the datasets, experimental results, and source code ass
 **Simplified models (results):** Resulting models at various levels of simplification generated using different simplification algorithms.
 
 ### Source
-1.  main.cpp : Call the scene with the obj path, position and if to simplify. -->
-2.  scene.cpp : Create the shape and add it to the scene to be drawn.
-3.  shape.cpp : Create a mesh and texture for this shape.
-4.  mesh.cpp : Create an OBJModel from the obj file and init the msh with it.
-5.  obj_loader.cpp : Parse the file into an OBJModel with uvs, normal..etc.
-6.  MeshSimplification.cpp : If we need to simplify this OBJModel, simplify it.
- 
- ### Error Metric
-*Window and input handler.*
-  
-##  Code Flow
 | File                                      | Description                                                                                                                                                                          |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Pair.cpp / Pair.h**                     | Defines the `Pair` class, representing an edge pair in the mesh for simplification, including attributes and operations related to the edge collapse cost calculation.               |
@@ -32,6 +21,10 @@ This repository contains the datasets, experimental results, and source code ass
 | **PointSet.cpp / PointSet.h**             | Implements a `PointSet` class to manage a collection of points in the mesh, supporting operations such as adjacency queries and update of mesh connectivity.                         |
 | **Simplification.cpp / Simplification.h** | Core implementation of the mesh simplification algorithm, integrating point, pair, and pair heap structures to progressively simplify the 3D mesh while preserving geometric detail. |
 
+ 
+ ### Error Metric
+*Window and input handler.*
+  
 
 ## Data structures
 - m_edgeVector - vector of all edges (no order);
