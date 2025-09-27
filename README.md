@@ -9,8 +9,8 @@ This repository contains the datasets, experimental results, and source code ass
 
 ### Data
 *All raw data and experimental results, including the original 3D models and the test results of the simplification algorithm reported in this study.*
-**Origin models:** The data files of the three test models—— Meerkat,Oryx, and Cow.
-**Simplified models (results):** Resulting models at various levels of simplification generated using different simplification algorithms.
+-**Origin models:** The data files of the three test models—— Meerkat,Oryx, and Cow.
+-**Simplified models (results):** Resulting models at various levels of simplification generated using different simplification algorithms.
 
 ### Source
 | File                                      | Description                                                                                                                                                                          |
