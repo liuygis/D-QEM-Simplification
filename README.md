@@ -23,16 +23,12 @@ This repository contains the datasets, experimental results, and source code ass
 
  
  ### Error Metric
-*Window and input handler.*
+*Metrics evaluating the geometric and texture errors of the results.*
   
-
 ## Data structures
-- m_edgeVector - vector of all edges (no order);
--	m_vertexNeighbor - multimap from vertex index to all it's neighbors;
-- m_errors - vector of mat4 errors for every vertex index;
--	m_OBJIndices - list of OBJIndex, the final structure includes every normal, uv and vertex index in the vertices.
-- m_vertices - vector of the positions of the vertices;
-- At runtime create a min heap for the edges and update it on every edge removed.
+**.obj file:** It is a geometric definition file format and belongs to 3D model files. It mainly stores the geometric information of 3D models, such as vertex coordinates, texture coordinates, normal vectors, and the connection relationship of polygonal faces.
+**.mtl file:** It is a material library file matched with the .obj file. It stores the material information  of 3D models, such as the name, color, reflectivity, transparency, texture mapping and other parameters of the material.
+**.jpg file (such as Meerkat_COLOR.jpg, Oryx_COLOR.jpg):** It is an image file format. In the scenario related to 3D models, this type of file is usually used as a texture map, mapping the image to the surface of the 3D model, adding details such as colors and patterns to the model, making the 3D model look more realistic and vivid.
 
 **Use Arrows to move around the scene and zoom in/out.**
 
