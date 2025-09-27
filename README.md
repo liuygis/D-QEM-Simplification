@@ -11,11 +11,11 @@ This repository contains the datasets, experimental results, and source code ass
 *All raw data and experimental results, including the original 3D models and the test results of the simplification algorithm reported in this study.*  
 -**Origin models:** The data files of the three test models—— Meerkat,Oryx, and Cow.  
 A Meerkat 3D model viewing from 6 different dirctions (front, back, up, down, left,right).  
-<img  src="Meerkat.jpg" width="400" >
+<img  src="Meerkat.jpg" width="400" >  
 An Oryx 3D model viewing  from 6 different dirctions (front, back, up, down, left,right).  
-<img  src="Oryx.jpg" width="400" >
+<img  src="Oryx.jpg" width="400" >  
 A Cow 3D model without texture.  
-<img  src="Cow.jpg" width="400" >
+<img  src="Cow.jpg" width="400" >  
 
 -**Simplified models (results):** Resulting models at various levels of simplification generated using different simplification algorithms.  
 
