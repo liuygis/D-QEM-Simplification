@@ -30,7 +30,7 @@ A Cow 3D model without texture.
 
  
  ### Error Metric
-*Metrics evaluating the geometric and texture errors of the results.*
+*  **Error metric.xlsx: **  Metrics evaluating the geometric and texture errors of the results.*
   
 ## Data structures
 -**.obj file:** It is a geometric definition file format and belongs to 3D model files. It mainly stores the geometric information of 3D models, such as vertex coordinates, texture coordinates, normal vectors, and the connection relationship of polygonal faces.  
