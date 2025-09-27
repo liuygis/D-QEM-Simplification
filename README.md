@@ -32,11 +32,11 @@ This repository contains the datasets, experimental results, and source code ass
 
 ##  Images:
 > 4K trianlges on the right, 2k on the left.
-<img  src="Images/meshSimplification_2000_4.png" width="400" >
-<img  src="Images/meshSimplification_2000_5.png" width="400" >
+<img  src="Meerkat.tif" width="400" >
+<img  src="Oryx.tif" width="400" >
 
 > 4K trianlges on the right, 500 on the left.
-<img  src="Images/meshSimplification_500_6.png" width="400" >
+<img  src="Cow.jpg" width="400" >
 <img  src="Images/meshSimplification_500_7.png" width="400" >
 
 > 298 trianlges on the right, 75 on the left.
