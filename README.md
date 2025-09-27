@@ -15,11 +15,11 @@ This repository contains the datasets, experimental results, and source code ass
 ### Source
 | File                                      | Description                                                                                                                                                                          |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Pair.cpp / Pair.h**                     | Defines the `Pair` class, representing an edge pair in the mesh for simplification, including attributes and operations related to the edge collapse cost calculation.               |
+| **Pair.cpp / Pair.h**                     | Defines the `Pair` class, representing an edge in the mesh for simplification, including attributes and operations related to the edge collapse cost calculation.               |
 | **PairHeap.cpp / PairHeap.h**             | Implements a heap structure (`PairHeap`) to efficiently manage and retrieve edge pairs with the lowest collapse cost during mesh simplification.                                     |
 | **Point.cpp / Point.h**                   | Defines the `Point` class representing a 3D vertex, including coordinates, normal vectors, and related operations.                                                                   |
 | **PointSet.cpp / PointSet.h**             | Implements a `PointSet` class to manage a collection of points in the mesh, supporting operations such as adjacency queries and update of mesh connectivity.                         |
-| **Simplification.cpp / Simplification.h** | Core implementation of the mesh simplification algorithm, integrating point, pair, and pair heap structures to progressively simplify the 3D mesh while preserving geometric detail. |
+| **Simplification.cpp / Simplification.h** | Core implementation of the D-QEM mesh simplification algorithm, integrating point, pair, and pair heap structures to progressively simplify the 3D mesh while preserving geometric detail. |
 
  
  ### Error Metric
