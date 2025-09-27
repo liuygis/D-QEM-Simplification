@@ -10,6 +10,13 @@ This repository contains the datasets, experimental results, and source code ass
 ### Data
 *All raw data and experimental results, including the original 3D models and the test results of the simplification algorithm reported in this study.*  
 -**Origin models:** The data files of the three test models—— Meerkat,Oryx, and Cow.  
+A Meerkat 3D model viewing from 6 different dirctions (front, back, up, down, left,right).  
+<img  src="Meerkat.jpg" width="400" >
+An Oryx 3D model viewing  from 6 different dirctions (front, back, up, down, left,right).  
+<img  src="Oryx.jpg" width="400" >
+A Cow 3D model without texture.  
+<img  src="Cow.jpg" width="400" >
+
 -**Simplified models (results):** Resulting models at various levels of simplification generated using different simplification algorithms.  
 
 ### Source
@@ -29,14 +36,3 @@ This repository contains the datasets, experimental results, and source code ass
 -**.obj file:** It is a geometric definition file format and belongs to 3D model files. It mainly stores the geometric information of 3D models, such as vertex coordinates, texture coordinates, normal vectors, and the connection relationship of polygonal faces.  
 -**.mtl file:** It is a material library file matched with the .obj file. It stores the material information  of 3D models, such as the name, color, reflectivity, transparency, texture mapping and other parameters of the material.  
 -**.jpg file (such as Meerkat_COLOR.jpg, Oryx_COLOR.jpg):** It is an image file format. In the scenario related to 3D models, this type of file is usually used as a texture map, mapping the image to the surface of the 3D model, adding details such as colors and patterns to the model, making the 3D model look more realistic and vivid.  
-
-##  Images:
-<img  src="Meerkat.jpg" width="400" >
-<img  src="Oryx.jpg" width="400" >
-<img  src="Cow.jpg" width="400" >
-
-
-
-
-
-
