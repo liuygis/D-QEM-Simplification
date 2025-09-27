@@ -31,15 +31,12 @@ This repository contains the datasets, experimental results, and source code ass
 -**.jpg file (such as Meerkat_COLOR.jpg, Oryx_COLOR.jpg):** It is an image file format. In the scenario related to 3D models, this type of file is usually used as a texture map, mapping the image to the surface of the 3D model, adding details such as colors and patterns to the model, making the 3D model look more realistic and vivid.  
 
 ##  Images:
-> 4K trianlges on the right, 2k on the left.
 <img  src="Meerkat.tif" width="400" >
 <img  src="Oryx.tif" width="400" >
-
-> 4K trianlges on the right, 500 on the left.
 <img  src="Cow.jpg" width="400" >
-<img  src="Images/meshSimplification_500_7.png" width="400" >
 
-> 298 trianlges on the right, 75 on the left.
-<img  src="Images/meshSimplification_75_1.png" width="400" >
+
+
+
 
 
